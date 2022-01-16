@@ -1,7 +1,7 @@
 import java.math.BigDecimal
 
 fun calculateOperation(firstNumber: BigDecimal, operator: String, secondNumber: BigDecimal): BigDecimal {
-    when(operator) {
+    when (operator) {
         "+" -> return firstNumber + secondNumber
         "-" -> return firstNumber - secondNumber
         "*" -> return firstNumber * secondNumber
